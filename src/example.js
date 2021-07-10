@@ -144,11 +144,22 @@
 
 // getFutureData();
 
-const getFutureData = async () => {
-    const result = await fetch(
-        'https://jsonplaceholder.typicode.com/todos/2')
-        .then((r) => r.json());
-    console.log(result);
-};
+// const getFutureData = async () => {
+//     const result = await fetch(
+//         'https://jsonplaceholder.typicode.com/todos/2')
+//         .then((r) => r.json());
+//     console.log(result);
+// };
 
-getFutureData();
+// getFutureData();
+
+// function doAwesomeThings() {
+//   Promise.resolve().then(() => console.log(1));
+//   setTimeout(() => console.log(2));
+//   Promise.resolve().then(() => console.log(3));
+//   console.log(4);
+// }
+// doAwesomeThings();
+// console.log(5);
+
+// kolejnosc 4 5 1 3 2
