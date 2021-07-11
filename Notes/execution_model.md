@@ -50,4 +50,3 @@
 ### Host functionality
 
 - JS doesn`t have functionality like Timer, XHR and so on, thats why host needs handle some features
-
